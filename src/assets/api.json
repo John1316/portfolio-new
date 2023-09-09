@@ -1,0 +1,159 @@
+{
+  "projects": [
+    {
+        "class": "dev-project-card",
+        "img": "assets/image/formjat.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "HTML",
+
+            "CSS",
+            "nextjs",
+            "Nexui"
+          ]
+        },
+        "title": "Formjat",
+        "href": "https://formjat.spacejat.com"
+
+    },
+    {
+        "class": "dev-project-card",
+        "img": "assets/image/jatdev.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "HTML",
+
+            "CSS",
+            "nextjs",
+            "Nexui"
+          ]
+        },
+        "title": "Jatdev",
+        "href": "https://jatdev.com"
+
+    },
+    {
+        "class": "dev-project-card",
+        "img": "assets/image/por1.jpg",
+        "ul": {
+          "class": "list",
+          "li": [
+            "HTML",
+
+            "CSS"
+          ]
+        },
+        "title": "Bootstrap - End user",
+        "href": "https://templateboot.netlify.app/"
+
+    },
+    {
+        "class": "dev-project-card",
+        "img": "assets/image/por2.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "Angular",
+
+            "Spa",
+
+            "SCSS"
+          ]
+        },
+        "title": "Aklny shokran - End user",
+        "href": "https://johnmaher14.github.io/articles_build/"
+
+
+    },
+    {
+        "class": "dev-project-card",
+        "img": "assets/image/por3.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "Angular",
+            "HTML",
+            "SCSS"
+          ]
+        },
+        "title": "Digital Bond - End user",
+        "href": "https://digitalbondmena.com/db-portfolio"
+
+    },
+    {
+
+        "class": "dev-project-card",
+        "img": "assets/image/por12.jpg",
+        "ul": {
+          "class": "list",
+          "li": [
+            "Angular",
+
+            "HTML",
+
+            "CSS"
+          ]
+        },
+        "title": "Movies - Authentication",
+        "href": "https://angularmovie.netlify.app/"
+
+
+    },
+    {
+
+        "class": "dev-project-card",
+        "img": "assets/image/ziSushi.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "Laravel",
+            "HTML",
+            "CSS",
+            "AJAX"
+          ]
+        },
+        "title": "Zi sushi",
+        "href": "https://digitalbondmena.com/zsushi_old"
+
+
+    },
+    {
+        "class": "dev-project-card",
+        "img":  "assets/image/egec.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "Angular",
+
+            "HTML",
+
+            "CSS"
+          ]
+        },
+        "title": "EGEC",
+        "href": "https://johnmaher14.github.io/egec_build"
+
+    },
+    {
+        "class": "dev-project-card",
+        "img":"assets/image/Eatcrispy.png",
+        "ul": {
+          "class": "list",
+          "li": [
+            "Laravel",
+
+            "HTML",
+
+            "CSS",
+
+            "AJAX"
+          ]
+        },
+        "title": "Eat Crispy - E-commerce",
+        "href": "https://digitalbondmena.com/EatsCrispy/en"
+
+    }
+  ]
+}

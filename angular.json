@@ -31,9 +31,27 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/bootstrap.css",
+              "node_modules/intl-tel-input/build/css/intlTelInput.css",
+              "src/assets/fonts/fontawesome-5/css/all.min.css",
+              "src/assets/plugins/aos/aos.min.css",
+              "src/assets/plugins/fancybox/jquery.fancybox.min.css",
+              "src/assets/plugins/nice-select/nice-select.min.css",
+              "src/assets/plugins/gijgo/css/gijgo.min.css",
+              "src/assets/css/main.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/plugins/fancybox/jquery.fancybox.min.js",
+              "src/assets/plugins/nice-select/jquery.nice-select.min.js",
+              "src/assets/plugins/aos/aos.min.js",
+              "src/assets/plugins/counter-up/jquery.counterup.min.js",
+              "src/assets/plugins/counter-up/waypoints.min.js",
+              "src/assets/plugins/gijgo/js/gijgo.min.js",
+              "src/assets/plugins/theme-mode-switcher/gr-theme-mode-switcher.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/menu.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -41,7 +59,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",

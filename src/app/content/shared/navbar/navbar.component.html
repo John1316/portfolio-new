@@ -1,0 +1,68 @@
+  <!-- Header Section Start -->
+  <!-- Header Area -->
+  <header class="site-header site-header--menu-right developer-header mobile-menu-trigger-dark">
+    <div class="container">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="site-header__brand">
+          <a routerLink="/" class="logo">
+            <img [src]="darkTheme == false ?  'assets/image/logo_black.png' : 'assets/image/logo.png'" alt='logo'>
+          </a>
+        </div>
+        <div class="menu-block-wrapper ">
+          <div class="menu-overlay" (click)="onCloseMenu()"></div>
+          <nav class="menu-block menu-block-inner" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close" (click)="onCloseMenu()">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+
+              <li class="nav-item nav-item-has-children">
+                <a routerLink="/home" (click)="onClickToNavigate('home')" class="nav-link-item drop-trigger">Home
+                </a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a routerLink="/about-us" (click)="onClickToNavigate('about-us')" class="nav-link-item drop-trigger">About us
+                </a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a routerLink="/portfolio" (click)="onClickToNavigate('portfolio')" class="nav-link-item drop-trigger">Portfolio
+                </a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a routerLink="/contact-us" (click)="onClickToNavigate('contact-us')" class="nav-link-item drop-trigger">Contact us
+                </a>
+              </li>
+
+            </ul>
+          </nav>
+          <div class="header-button header-btn developer-header-btn ms-lg-2">
+            <a class="d-btn d-btn-primary" routerLink="/contact-us">
+              Contact
+            </a>
+          </div>
+        </div>
+        <!-- mobile menu trigger -->
+        <div (click)="onOpenMenu()" class="mobile-menu-trigger">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!-- navbar- -->
+  <!-- Header Section End -->
+  <button class="btn theme-change-button" *ngIf="!darkTheme" (click)="toggleDarkTheme()">
+    <div class="toggle-button-switcher bg-primary-500">
+      <i class="fas fa-moon text-white" aria-hidden="true"></i>
+    </div>
+  </button>
+  <button class="btn theme-change-button dark" *ngIf="darkTheme" (click)="toggleLightTheme()">
+    <div class="toggle-button-switcher bg-primary-500">
+      <i class="fas fa-lightbulb text-white"></i>
+    </div>
+  </button>
